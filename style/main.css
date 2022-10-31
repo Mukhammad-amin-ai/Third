@@ -1,0 +1,425 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    height: 119vh;
+    background-color: #010032;
+}
+
+.container .navbar {
+    width: 95%;
+    height: 10%;
+    margin-left: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+
+
+.container .navbar .two ul,
+a {
+    display: flex;
+    gap: 20px;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    /* identical to box height, or 128% */
+    color: #FFFFFF;
+}
+
+.container .main {
+    display: flex;
+    /* background-color: aqua; */
+    margin-right: 20px;
+
+}
+
+.container .main .left .top,
+.bot {
+    padding: 50px;
+}
+
+
+
+.container .main .left .top h1 {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 76px;
+    /* or 105% */
+    color: #FFFFFF;
+}
+
+.container .main .left .top p {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 34px;
+    /* or 155% */
+    padding: 20px 0px 20px 0;
+    color: #FFFFFF;
+}
+
+.container .main .left .top button {
+    width: 209px;
+    height: 69px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .main .left .top button a {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height, or 140% */
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.container .main .left .bot {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-auto-rows: 30px;
+    /* background-color: aqua; */
+}
+
+.container .main .left .bot .botone {
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+
+.container .main .left .bot .bottwo {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.container .main .left .bot .botthree {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.container .main .left .bot h1 {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    /* identical to box height, or 144% */
+    color: #FFFFFF;
+}
+
+.container .main .left .bot p {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    /* identical to box height, or 149% */
+
+
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+
+
+.container .digtal {
+    width: 90%;
+    height: 80vh;
+    margin-left: 4%;
+    margin-top: 200px;
+    display: flex;
+}
+
+.container .digtal .left {
+    width: 30%;
+    height: 100%;
+
+}
+
+.container .digtal .left .img2 {
+    padding-top: 100px;
+}
+
+
+.container .digtal .left p {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 28px;
+    /* or 147% */
+    color: #000000;
+    padding: 5px 0 30px 0;
+}
+
+.container .digtal .right {
+    width: 70%;
+    height: 100%;
+
+}
+
+.container .digtal .right h1 {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 54px;
+    /* or 112% */
+    color: #000000;
+}
+
+
+.container .digtal .right .seven {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    padding: 120px 0 100px 0;
+}
+
+.container .digtal .right .seven h1 {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 31px;
+    /* identical to box height, or 147% */
+
+
+    color: #000000;
+
+}
+
+
+.container .work {
+    width: 90%;
+    height: 80vh;
+    margin-left: 4%;
+    margin-top: 200px;
+}
+
+.container .work .text {
+    width: 700px;
+    height: 310px;
+}
+
+.container .work .text h1 {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 56px;
+    /* or 110% */
+    color: #000000;
+    padding-top: 30px;
+}
+
+.container .work .box {
+    display: grid;
+    grid-template-columns: repeat(2, 510px);
+    grid-auto-rows: 510px;
+    gap: 130px;
+
+}
+
+.container .work .box a {
+    padding-top: 50px;
+}
+
+.container .work .box p {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    /* identical to box height, or 124% */
+    color: #000000;
+}
+
+.container .center {
+    width: 90%;
+    height: 80vh;
+    margin-left: 4%;
+    margin-top: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 150px;
+}
+
+.container .center .center1 {
+    width: 740px;
+    height: 720px;
+}
+
+.container .galery {
+    width: 90%;
+    height: 80vh;
+    margin-left: 4%;
+    margin-top: 200px;
+    display: grid;
+    grid-template-columns: repeat(2, 520px);
+    grid-auto-rows: 825px;
+    column-gap: 230px;
+}
+
+.container .galery .galeryone {
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+
+.container .galery .galerytwo {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.container .galery .galerythree {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.container .galery .galerythree button {
+    width: 160px;
+    height: 160px;
+    background-color: #4543E8;
+    border: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .galery .galerythree button a,
+h1 {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.container .blue {
+    width: 100%;
+    height: 100vh;
+    margin-top: 800px;
+    background-color: #010032;
+    display: grid;
+    grid-template-columns: repeat(3, 290px);
+    grid-auto-rows: 283px;
+    column-gap: 230px;
+
+}
+
+.container .blue .div_one {
+    width: 420px;
+    height: 283px;
+    padding-top: 50px;
+    padding-left: 80px;
+}
+
+
+
+.container .blue .div_one h1 {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    /* or 112% */
+
+    padding-right: 20px;
+    color: #FFFFFF;
+    padding-top: 30px;
+}
+
+.container .blue .div_two,
+.div_three,
+.div_four,
+.div_five {
+    width: 290px;
+    height: 283px;
+    padding-top: 50px;
+}
+
+.container .blue .div_four {
+    padding-left: 100px;
+}
+
+
+.container .blue .div_six {
+    padding-top: 150px;
+    display: block;
+}
+
+.container .blue .div_six button {
+    width: 272px;
+    height: 69px;
+    border-radius: 35px;
+
+}
+
+.container .blue .div_six a {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height, or 140% */
+    display: flex;
+    justify-content: center;
+    color: #000000;
+}
+
+.container .blue .div_six img {
+    padding-top: 30px;
+    padding-left: 100px;
+}
+
+
+.container .blue h1 {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height, or 124% */
+
+    padding: 20px;
+    color: #FFFFFF;
+}
+
+.container .blue p {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 155% */
+
+
+    color: #FFFFFF;
+}
