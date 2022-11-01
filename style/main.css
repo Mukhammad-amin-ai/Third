@@ -8,18 +8,17 @@
 
 .container {
     width: 100%;
-    height: 119vh;
-    background-color: #010032;
+    height: auto;
 }
 
 .container .navbar {
-    width: 95%;
+    width: 100%;
     height: 10%;
-    margin-left: 2%;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 200px;
+    gap: 400px;
+    background-color: #010032;
 }
 
 
@@ -38,18 +37,25 @@ a {
 }
 
 .container .main {
+    width: auto;
+    height: auto;
     display: flex;
-    /* background-color: aqua; */
-    margin-right: 20px;
-
+    background-color: #010032;
+    /* margin-right: 20px; */
+    gap: 92px;
 }
 
-.container .main .left .top,
-.bot {
-    padding: 50px;
+.container .main .left {
+    width: 60%;
+    height: 50%;
+    /* background-color: yellowgreen; */
 }
 
-
+.container .main .left .top {
+    width: 100%;
+    height: 227px;
+    /* background-color: yellow; */
+}
 
 .container .main .left .top h1 {
     font-family: 'Epilogue';
@@ -57,19 +63,24 @@ a {
     font-weight: 400;
     font-size: 72px;
     line-height: 76px;
-    /* or 105% */
     color: #FFFFFF;
+    padding-top: 50px;
+    padding-bottom: 30px;
 }
 
 .container .main .left .top p {
+    width: 543px;
+    height: 103px;
     font-family: 'Epilogue';
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
     line-height: 34px;
     /* or 155% */
-    padding: 20px 0px 20px 0;
+    padding-left: 90px;
+
     color: #FFFFFF;
+
 }
 
 .container .main .left .top button {
@@ -79,6 +90,8 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
+    margin-left: 90px;
 }
 
 .container .main .left .top button a {
@@ -95,28 +108,24 @@ a {
 }
 
 .container .main .left .bot {
-    display: grid;
-    grid-template-columns: repeat(3, 200px);
-    grid-auto-rows: 30px;
-    /* background-color: aqua; */
+    position: absolute;
+    height: 64px;
+    left: 6%;
+    right: 0%;
+    top: 656px;
+
 }
 
-.container .main .left .bot .botone {
-    grid-column: 1/2;
-    grid-row: 1/3;
+.container .main .left .bot .rtext {
+    width: 219px;
+    position: absolute;
+    height: 26px;
+    left: 10%;
+    right: 80%;
+    top: -0.5px;
 }
 
-.container .main .left .bot .bottwo {
-    grid-column: 2/3;
-    grid-row: 1/2;
-}
-
-.container .main .left .bot .botthree {
-    grid-column: 2/3;
-    grid-row: 2/3;
-}
-
-.container .main .left .bot h1 {
+.container .main .left .bot .rtext p {
     font-family: 'Epilogue';
     font-style: normal;
     font-weight: 400;
@@ -126,7 +135,17 @@ a {
     color: #FFFFFF;
 }
 
-.container .main .left .bot p {
+.container .main .left .bot .rtextt {
+    width: 275px;
+    position: absolute;
+    height: 23px;
+    left: 10%;
+    right: 0%;
+    top: 32.5px;
+
+}
+
+.container .main .left .bot .rtextt p {
     font-family: 'Epilogue';
     font-style: normal;
     font-weight: 400;
@@ -139,14 +158,17 @@ a {
 }
 
 
-
-
 .container .digtal {
-    width: 90%;
-    height: 80vh;
-    margin-left: 4%;
+    width: 1280px;
+    height: 398px;
+    /* margin-left: 4%; */
     margin-top: 200px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 250px;
+    padding-left: 15%;
+
 }
 
 .container .digtal .left {
@@ -156,11 +178,14 @@ a {
 }
 
 .container .digtal .left .img2 {
-    padding-top: 100px;
+    padding-top: 150px;
 }
 
 
 .container .digtal .left p {
+
+    width: 391px;
+    height: 112px;
     font-family: 'Epilogue';
     font-style: normal;
     font-weight: 500;
@@ -168,8 +193,17 @@ a {
     line-height: 28px;
     /* or 147% */
     color: #000000;
-    padding: 5px 0 30px 0;
+    padding: 5px;
 }
+
+.container .digtal .left .ceo {
+    position: absolute;
+    height: 76px;
+    left: 7%;
+    right: 0%;
+    top: 1430px;
+}
+
 
 .container .digtal .right {
     width: 70%;
@@ -213,16 +247,15 @@ a {
 .container .work {
     width: 90%;
     height: 80vh;
-    margin-left: 4%;
+    margin-left: 7%;
     margin-top: 200px;
 }
 
-.container .work .text {
-    width: 700px;
-    height: 310px;
-}
+/* .container .work .text {
+    
+} */
 
-.container .work .text h1 {
+.container .work .text p {
     font-family: 'Epilogue';
     font-style: normal;
     font-weight: 400;
@@ -231,13 +264,15 @@ a {
     /* or 110% */
     color: #000000;
     padding-top: 30px;
+    width: 700px;
+    height: 210px;
 }
 
 .container .work .box {
     display: grid;
     grid-template-columns: repeat(2, 510px);
     grid-auto-rows: 510px;
-    gap: 130px;
+    gap: 170px;
 
 }
 
@@ -256,19 +291,51 @@ a {
 }
 
 .container .center {
-    width: 90%;
-    height: 80vh;
-    margin-left: 4%;
-    margin-top: 800px;
-    display: flex;
+    display: grid;
+    grid-template-columns: 740px;
+    grid-auto-rows: 555px, 49px, 28px;
     justify-content: center;
-    align-items: center;
-    padding-left: 150px;
+    /* align-items: center; */
+    margin-top: 700px;
+    row-gap: 20px;
+}
+
+.container .center .center2 {
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 
 .container .center .center1 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    display: flex;
+    gap: 490px;
     width: 740px;
-    height: 720px;
+
+}
+
+.container .center .center1 h2 {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height, or 124% */
+
+
+    color: #000000;
+}
+
+.container .center .center3 p {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* identical to box height, or 174% */
+
+
+    color: #000000;
 }
 
 .container .galery {
@@ -323,96 +390,69 @@ h1 {
 }
 
 .container .blue {
-    width: 100%;
-    height: 100vh;
-    margin-top: 800px;
+    width: auto;
+    height: 870px;
+    margin-top: 500px;
     background-color: #010032;
-    display: grid;
-    grid-template-columns: repeat(3, 290px);
-    grid-auto-rows: 283px;
-    column-gap: 230px;
+
 
 }
 
-.container .blue .div_one {
+.container .blue .boxdoda {
+
+    width: 1280px;
+    height: 582px;
+    position: absolute;
+    left: 7%;
+    right: 5.56%;
+    top: 5150px;
+    display: flex;
+    gap: 100px;
+}
+
+.container .blue .boxdoda .boxone {
     width: 420px;
-    height: 283px;
-    padding-top: 50px;
-    padding-left: 80px;
+    height: 100%;
 }
 
+.container .blue .boxdoda .boxone .otop {
+    width: 420px;
+    height: 282px;
+}
 
-
-.container .blue .div_one h1 {
+.container .blue .boxdoda .boxone .otop h2 {
     font-family: 'Epilogue';
     font-style: normal;
     font-weight: 400;
-    font-size: 40px;
-    line-height: 50px;
+    font-size: 50px;
+    line-height: 54px;
     /* or 112% */
-
-    padding-right: 20px;
     color: #FFFFFF;
-    padding-top: 30px;
 }
 
-.container .blue .div_two,
-.div_three,
-.div_four,
-.div_five {
+.container .blue .boxdoda .boxone .obot {
     width: 290px;
     height: 283px;
-    padding-top: 50px;
+    position: absolute;
+    height: 283px;
+    left: 11.5%;
+    right: 63.84%;
+    top: 299px;
 }
 
-.container .blue .div_four {
-    padding-left: 100px;
-}
-
-
-.container .blue .div_six {
-    padding-top: 150px;
-    display: block;
-}
-
-.container .blue .div_six button {
-    width: 272px;
-    height: 69px;
-    border-radius: 35px;
-
-}
-
-.container .blue .div_six a {
+.container .blue .boxdoda .boxone .obot h3 {
     font-family: 'Epilogue';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 25px;
-    /* identical to box height, or 140% */
-    display: flex;
-    justify-content: center;
-    color: #000000;
-}
-
-.container .blue .div_six img {
-    padding-top: 30px;
-    padding-left: 100px;
-}
-
-
-.container .blue h1 {
-    font-family: 'Epilogue';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
+    font-size: 30px;
     line-height: 30px;
     /* identical to box height, or 124% */
 
-    padding: 20px;
+    padding: 10px 0;
     color: #FFFFFF;
 }
 
-.container .blue p {
+.container .blue .boxdoda .boxone .obot p {
     font-family: 'Epilogue';
     font-style: normal;
     font-weight: 400;
@@ -422,4 +462,136 @@ h1 {
 
 
     color: #FFFFFF;
+}
+
+
+.container .blue .boxdoda .boxtwo {
+    width: 290px;
+    height: 100%;
+}
+
+.container .blue .boxdoda .boxtwo .ttop {
+    width: 100%;
+    height: 283px;
+    padding-bottom: 16px;
+
+}
+
+.container .blue .boxdoda .boxtwo .ttop h3 {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    /* identical to box height, or 124% */
+
+    padding: 10px 0;
+    color: #FFFFFF;
+}
+
+.container .blue .boxdoda .boxtwo .ttop p {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 155% */
+
+
+    color: #FFFFFF;
+}
+
+.container .blue .boxdoda .boxtwo .tbot {
+    width: 100%;
+    height: 283px;
+}
+
+.container .blue .boxdoda .boxtwo .tbot h3 {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    /* identical to box height, or 124% */
+
+    padding: 10px 0;
+    color: #FFFFFF;
+}
+
+.container .blue .boxdoda .boxtwo .tbot p {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 155% */
+
+
+    color: #FFFFFF;
+}
+
+.container .blue .boxdoda .boxthree {
+    width: 290px;
+    height: 100%;
+}
+
+.container .blue .boxdoda .boxthree .rtop {
+    width: 100%;
+    height: 283px;
+
+}
+
+.container .blue .boxdoda .boxthree .rtop h3 {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    /* identical to box height, or 124% */
+
+    padding: 10px 0;
+    color: #FFFFFF;
+}
+
+.container .blue .boxdoda .boxthree .rtop p {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 155% */
+    color: #FFFFFF;
+}
+
+.container .blue .boxdoda .boxthree .rbot {
+    width: 100%;
+    height: 283px;
+    padding-top: 50px;
+}
+
+.container .blue .boxdoda .boxthree .rbot button {
+    width: 268px;
+    height: 65px;
+    border-radius: 35px;
+    border: transparent;
+}
+
+.container .blue .boxdoda .boxthree .rbot button a {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height, or 140% */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #000000;
+}
+.container .blue .boxdoda .boxthree .rbot .rasim{
+    display: flex;
+    justify-content: end;
+    padding-top: 50px;
 }
