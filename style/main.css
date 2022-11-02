@@ -1147,5 +1147,141 @@ h1 {
     left: 3%;
     right: 0%;
     top: 9728px;
-  
+
+}
+
+.container .footer {
+    width: 100%;
+    height: 731px;
+    background-color: #010032;
+    margin-top: 700px;
+}
+
+.container .footer .fot_one {
+    padding: 150px 0px 10px 150px;
+}
+
+.container .footer .fot_two {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    padding-right: 250px;
+}
+
+.container .footer .fot_two h2 {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 66px;
+    /* identical to box height, or 110% */
+
+
+    color: #FFFFFF;
+
+}
+
+.container .footer .fot_three {
+    width: 1280px;
+    height: 275px;
+    padding: 82px 0 0 150px;
+    display: flex;
+    gap: 150px;
+
+
+}
+
+.container .footer .fot_three .section_one {
+    width: 220px;
+    height: 32px;
+    border-bottom: 1px solid;
+}
+
+.container .footer .fot_three h2 {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+    /* identical to box height, or 164% */
+    color: #FFFFFF;
+}
+
+.container .footer .fot_three li {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* identical to box height, or 155% */
+    color: #FFFFFF;
+}
+
+.container .footer .fot_three .section_four .subscribe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.container .footer .fot_three .section_four .subscribe input {
+    width: 310px;
+    height: 48px;
+    background-color: #010032;
+    border-radius: 35px;
+}
+
+.container .footer .fot_three .section_four .subscribe button {
+    width: 140px;
+    height: 48px;
+    background-color: #4543E8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    border-radius: 35px;
+    font-size: 20px;
+}
+
+.container .footer .fot_four {
+    width: 100%;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid;
+    gap: 700px;
+
+}
+
+.container .footer .fot_four .ffleft h2 {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    padding-top: 50px;
+    padding-left: 50px;
+    color: #FFFFFF;
+}
+
+.container .footer .fot_four .ffright ul {
+    display: flex;
+    gap: 20px;
+    padding-top: 50px;
+}
+
+.container .footer .fot_four .ffright li {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+
+    color: #FFFFFF;
+
 }
