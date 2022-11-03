@@ -1142,12 +1142,103 @@ h1 {
 }
 
 .container .wwork {
-    position: absolute;
-    height: 400px;
-    left: 3%;
-    right: 0%;
-    top: 9728px;
+    width: 100%;
+    
+    margin-top: 200px;
+    gap: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
+
+
+
+.container .wwork .wleft {
+    width: 50%;
+    height: 100%;
+
+}
+
+.container .wwork .wleft .wtxt {
+    position: absolute;
+    width: 400px;
+    height: 84px;
+    left: 10%;
+    top: 9900px;
+}
+
+.container .wwork .wleft .wtxt h2 {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height, or 124% */
+
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.container .wwork .wleft .wtxt h3 {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    /* identical to box height, or 199% */
+
+    text-align: center;
+    padding: 10px 0;
+    color: #FFFFFF;
+}
+.container .wwork .wleft .wtxt button{
+    background: transparent;
+    border: transparent;
+    border-bottom: 1px solid;
+    margin-left: 170px;
+}
+.container .wwork .wright{
+    width: 50%;
+    height: 100%;
+}
+.container .wwork .wright .wrtxt {
+    position: absolute;
+    width: 400px;
+    height: 84px;
+    left: 65%;
+    top: 9900px;
+}
+.container .wwork .wright .wrtxt h2{
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height, or 124% */
+
+    text-align: center;
+    color: #FFFFFF;
+}
+.container .wwork .wright .wrtxt h3{
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    /* identical to box height, or 199% */
+
+    text-align: center;
+    padding: 10px 0;
+    color: #FFFFFF;
+}
+
+.container .wwork .wright .wrtxt button{
+    background: transparent;
+    border: transparent;
+    border-bottom: 1px solid;
+    margin-left: 150px;
 }
 
 .container .footer {
